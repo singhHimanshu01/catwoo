@@ -1,0 +1,203 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nev{
+    background-image: linear-gradient(to bottom,black,rgb(0, 0, 0));
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 68px;
+    position: fixed;
+    width: 100vw;
+    box-shadow: rgba(255, 254, 254, 0.25) 0px 13px 27px -5px, rgba(255, 255, 255, 0.3) 0px 8px 16px -8px;
+
+}
+#logo{
+    padding-left: 12%;
+    width: 65%;
+    font-size: 28px;
+}
+#logo>div{
+    font-family: cursive;
+}
+#nevB{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+#nevB>div{
+    font-size: 16px;
+
+}
+#nevB>div>a{
+    text-decoration: none;
+    color: white;
+}
+#main{
+    height: 85%;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main11{
+    width: 45%;
+    height: 100%;
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 32px;
+}
+#main11>h1{
+    text-align: center;
+}
+.main12{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main12>img{
+    width: 100%;
+}
+.skills{
+    padding-top: 72px;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom,rgb(100, 93, 93),rgb(38, 36, 36),black);
+}
+.skills>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36vh;
+    padding-left: 13vw;
+    padding-right: 13vw;
+    justify-content: space-around;
+}
+.skills>div>div>img{
+    width: min(100%);
+}
+.skills2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(to bottom,black,rgb(38, 36, 36),rgb(100, 93, 93));
+    height: 48vh;
+    padding-left: 13vw;
+    padding-right: 13vw;
+}
+.skills2>div>img{
+    width: min(100%);
+}
+.si{
+    height: 25vh;
+    box-sizing: border-box;
+
+}
+.si:hover{
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgb(84, 222, 103), 0 3px 6px white;
+}
+.si>h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+}
+
+.projects{
+    padding-top: 78px;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom,rgb(100, 93, 93),black);
+}
+.projects>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 38vh;
+    padding-left: 13vw;
+    padding-right: 13vw;
+}
+.projects>div>div{
+    width: 30%;
+}
+.projects>div>div>img{
+    width: min(100%); 
+}
+.projects2{
+    background-image: linear-gradient(to bottom,black,rgb(100, 93, 93));
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 42vh;
+    padding-left: 13vw;
+    padding-right: 13vw;
+}
+.projects2>div{
+    width: 30%;
+}
+.projects2>div>img{
+    width: min(100%);
+}
+.fon{
+    background-image: linear-gradient(to bottom,rgb(100, 93, 93),black);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.fon>h2{
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+}
+form {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 45vw;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:851px) {
+    #main{
+        display: flex;
+        flex-direction: column;
+    }
+    #main11{
+        margin-top: 151px;
+    }
+
+}
